@@ -1,0 +1,59 @@
+:root {
+    --main-bg-color: rgb(123, 18, 150);
+    --main-margin-box: 50px 75px 50px 75px;
+    --main-funny-height: 495px;
+    --main-button-border: 5px solid yellow;
+}
+
+
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 30px;
+}
+
+#blocks {
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+#one {
+    color: white;
+    height: 150px;
+    width: 150px;
+    background-color: var(--main-bg-color);
+    margin: 50px 25px 50px 25px;
+    display: inline-block;
+}
+
+#two {
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    padding: var(--main-margin-box);
+    display: inline-block;
+}
+
+#three {
+    color: var(--main-bg-color);
+    background-color: darkgrey;
+    height: var(--main-funny-height);
+    width: 150px;
+    display: inline-block;
+}
+
+#four {
+    background-color: hotpink;
+    color: rgb(0, 0, 0);
+    border: var(--main-button-border);
+    display: inline-block;
+}
+
+
+
